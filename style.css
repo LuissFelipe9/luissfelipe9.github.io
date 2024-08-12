@@ -15,11 +15,11 @@ body {
 }
 
 .destaque-titulo {
-    color: #f19100
+    color: #22D4FD
 }
 
 .apresentacao__conteudo__destaque {
-    color: #f19100
+    color: #22D4FD;
 }
 
 .minhas__competencias{
@@ -39,7 +39,7 @@ body {
 
 
 .apresentacao {
-    margin: 5% 20%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +47,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 620px;
+    width: 615px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -55,9 +55,8 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 24px;
     font-family: "Krona One", sans-serif;
-    text-align: initial
 }
 
 .apresentacao__conteudo__paragrafo {
@@ -69,28 +68,44 @@ body {
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 5px;
   
 }
 
+.apresentacao__links__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links__links {
-    background-color: #f19100;
-    width: 280px;
+    /* background-color: #f19100; */
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    border: 2px solid #22d4fd;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
     margin: 10px;
     padding: 15px;
 
 }
 
-
-.imagem-lf {
-    padding: 65px 71px;
-    image-orientation: flip;
+.apresentacao__links__links:hover {
+    background-color: #272727
 }
+
+
+
+
+
